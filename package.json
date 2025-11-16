@@ -5,8 +5,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ai-sdk/google": "^2.0.32",
-    "@assistant-ui/react-ai-sdk": "^1.1.10",
-    "ai": "^5.0.93"
-  }
+  "next": "^14.0.0",       
+  "react": "^18.2.0",      
+  "react-dom": "^18.2.0",
+  "@ai-sdk/google": "^2.0.32",
+  "@assistant-ui/react-ai-sdk": "^1.1.10",
+  "ai": "^5.0.93"
+}
+
 }
