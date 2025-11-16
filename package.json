@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.32",
+    "@assistant-ui/react-ai-sdk": "^1.1.10",
+    "ai": "^5.0.93"
+  }
+}
