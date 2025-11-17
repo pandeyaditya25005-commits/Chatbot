@@ -23,12 +23,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    return (
+  <html lang="en">
+    <body className={inter.className}>
+      <header style={{ display: 'flex', alignItems: 'center', gap: '16px', background: '#e3f2fd', padding: '10px 20px' }}>
+        <img src="/college-logo.png" alt="College Logo" style={{height:"60px"}} />
+        <h1>Inderprastha Engineering College Chatbot</h1>
+      </header>
+      {children}
+    </body>
+  </html>
+);
+
+   
   );
 }
